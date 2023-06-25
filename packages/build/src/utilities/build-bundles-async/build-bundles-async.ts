@@ -125,7 +125,8 @@ async function buildUiBundleAsync(options: {
         '.gif': 'dataurl',
         '.jpg': 'dataurl',
         '.png': 'dataurl',
-        '.svg': 'dataurl'
+        '.svg': 'dataurl',
+        '.riv': 'binary',
       },
       logLevel: 'silent',
       minify,
